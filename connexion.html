@@ -4,47 +4,195 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <title>Composant Alert</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Page Connexion</title>
 </head>
 <body>
-   
-    <div style="height: 100px;" class="container">
-    <h1 class="text-center">Les slides avec indicateurs avec fond de transition</h1>
-    <hr>
-    <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="images/a_propos1.jpg" class="d-block w-100" alt="...">
+    <div class="container-fluid bg-dark text-white d-flex justify-content-between align-items-center p-2">
+        <div>
+            <i style="color: rgba(red, green, blue, alpha);" class="bi bi-envelope-fill px-3"> contact@contact.com</i>
+            <i class="bi bi-telephone-fill">  77 135 09 18</i>
+        </div>
+        <div>
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-facebook px-3"></i>
+            <i class="bi bi-twitter"></i>
+            <i class="bi bi-linkedin px-3"></i>
+            <i class="fa-brands fa-tiktok"></i>
+       </div>
     </div>
-    <div class="carousel-item">
-      <img src="images/a_propos2.png" class="d-block w-100" alt="...">
+    <div  class="container-fluid text-white d-flex justify-content-between align-items-center p-2">
+        <div>
+            <img style="width: 300px; height: 100px;" src="images/logo.png" alt="logo thias" class="img-fluid d-flex justify-content-start">
+        </div>
+        <div>
+            <i class="bi bi-cart-fill" style="color: brown; font-size: 24px;"></i> 
+            <i class="bi bi-person-fill" style="color: brown; font-size: 24px;">
+                <a class="btn btn-sm p-0 text-decoration-none" href="connexion.html" role="button" style="color: brown;">Connexion
+                </a>     
+            </i>      
+        </div>   
     </div>
-    <div class="carousel-item">
-      <img src="images/A_Propos_De_Nous.png" class="d-block w-100" alt="...">
+    <div>
+        <nav style="height: 50px;" class="navbar navbar-expand-lg bg-light justify-content-start">
+            <button class="navbar-toggler bg-light" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+             </button>
+             <div class="container">
+                <div class="collapse navbar-collapse justify-content-center " id="menu">
+                    <ul class="navbar-nav">
+                        <li>
+                            <a class="nav-link p-2" href="#" style="color: brown; font-size: 18px; font-family: Verdana, Geneva, Tahoma, sans-serif; font-style: inherit;">Accueil</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle p-2" data-bs-toggle="dropdown" href="#" style="color: brown; font-size: 18px; font-family: Verdana, Geneva, Tahoma, sans-serif; font-style: inherit;">Chaussures</a>
+                            <ul class="dropdown-menu border-0">
+                                <li><a href="#" class="dropdown-item text-black">Ballerines</a></li>
+                                <li><a href="#" class="dropdown-item text-black">Scarpins</a></li>
+                                <li><a href="#" class="dropdown-item text-black">Nus-pieds</a></li>
+                                <li><a href="#" class="dropdown-item text-black">Mulles</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle p-2" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: brown; font-size: 18px; font-family: Verdana, Geneva, Tahoma, sans-serif; font-style: inherit;">Vetements</a>
+                            <ul class="dropdown-menu border-0">
+                                <li><a href="#" class="dropdown-item text-black">Hommes</a></li>
+                                <li><a href="#" class="dropdown-item text-black">Femmes</a></li>
+                            </ul>
+                        </li>
+                       <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle p-2" data-bs-toggle="dropdown" href="#" style="color: brown; font-size: 18px; font-family: Verdana, Geneva, Tahoma, sans-serif; font-style: inherit;">Maquillages</a>
+                            <ul class="dropdown-menu border-0">
+                                <li><a href="#" class="dropdown-item text-black">Pour levres</a></li>
+                                <li><a href="#" class="dropdown-item text-black">Pour visages</a></li>
+                                <li><a href="#" class="dropdown-item text-black">Pour yeux</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle p-2" data-bs-toggle="dropdown" href="#" style="color: brown; font-size: 18px; font-family: Verdana, Geneva, Tahoma, sans-serif; font-style: inherit;">Parfumeries</a>
+                            <ul class="dropdown-menu border-0">
+                                <li><a href="#" class="dropdown-item text-black">Parfums femmes</a></li>
+                                <li><a href="#" class="dropdown-item text-black">Parfums hommes</a></li>
+                                <li><a href="#" class="dropdown-item text-black">Parfums unisexes</a></li>
+                            </ul>
+                        </li>
+                       <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle p-2" data-bs-toggle="dropdown" href="#" style="color: brown; font-size: 18px; font-family: Verdana, Geneva, Tahoma, sans-serif; font-style: inherit;">Maroqueries</a>
+                            <ul class="dropdown-menu border-0">
+                                <li><a href="#" class="dropdown-item text-black">Pochettes</a></li>
+                                <li><a href="#" class="dropdown-item text-black">Sac a mains</a></li>
+                                <li><a href="#" class="dropdown-item text-black">Sacs a dos</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle p-2" data-bs-toggle="dropdown" href="#" style="color: brown; font-size: 18px; font-family: Verdana, Geneva, Tahoma, sans-serif; font-style: inherit;">Linegeries</a>
+                            <ul class="dropdown-menu border-0">
+                                <li><a href="#" class="dropdown-item text-black">Nuisettes et pyjamas</a></li>
+                                <li><a href="#" class="dropdown-item text-black">Soutient gorges</a></li>
+                                <li><a href="#" class="dropdown-item text-black">Tenues sexy</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle p-2" data-bs-toggle="dropdown" href="#" style="color: brown; font-size: 18px; font-family: Verdana, Geneva, Tahoma, sans-serif; font-style: inherit;">Cheuveux</a>
+                            <ul class="dropdown-menu border-0">
+                                <li><a href="#" class="dropdown-item text-black">Shampoing</a></li>     
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle p-2" data-bs-toggle="dropdown" href="#" style="color: brown; font-size: 18px; font-family: Verdana, Geneva, Tahoma, sans-serif; font-style: inherit;">Soins de corps</a>
+                            <ul class="dropdown-menu border-0">
+                                <li><a href="#" class="dropdown-item text-black">Savon</a></li>
+                                <li><a href="#" class="dropdown-item text-black">Bain de douche</a></li>
+                                <li><a href="#" class="dropdown-item text-black">Gel douche et cheveux</a></li>    
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+             </div>
+        </nav>         
     </div>
-    <div class="carousel-item">
-      <img src="images/facebook.png" class="d-block w-100" alt="...">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-6 p-5">
+                <h2 style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-style: inherit; color: black;">Se Connecter</h2>
+                <form action="" class="row g-3 border border-3 border-dark rounded-5 p-3 shadow mt-3" style="background-color: beige">
+                    <div class="row">
+                        <div class="col-md-12 ">
+                            <label class="form-label required" for="identifiant">Indentifiant ou e-mail</label>
+                            <input class="form-control border border-3 border-dark rounded-3" type="text"  id="prenom" name="prenom" placeholder="Votre e-mail" required>
+                        </div>
+                         <div class="col-md-12 mt-4">
+                            <label class="form-label required" for="motdepasse">Mot de passe</label>
+                            <input class="form-control border border-3 border-dark rounded-3" type="password"  id="motdepasse" name="motdepasse" placeholder="Votre mot de passe" required>
+                        </div>
+                    </div>
+                    <div class="form-check">
+                       <input type="checkbox" name="choix"> 
+                       <label for="choix" class="form-label text-black"> Se souvenir de moi</label>
+                    </div>
+                    <div class="col-md-4 mt-0">
+                        <button class="btn" type="submit" style="background-color: goldenrod;">
+                            <i class="bi bi-send"> Se connecter </i>  
+                        </button>
+                    </div> 
+                    <a href="#" class="text-decoration-none" style="color: yellowgreen; font-size: 18px;">
+                                Mot de passe oublié ?.
+                    </a>      
+        </form>     
+            </div>
+            <div class="col-6 p-5">
+                <h2 style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-style: inherit; color: black;">S'inscrire</h2>
+                <form action="" class="row g-3 border border-3 border-dark rounded-5 p-3 shadow mt-3" style="background-color: beige">
+                    <div class="row">
+                        <div class="col-md-12 ">
+                            <label class="form-label required" for="identifiant">Adresse e-mail</label>
+                            <input class="form-control border border-3 border-dark rounded-3" type="text"  id="identifiant" name="identifiant" placeholder="Votre e-mail" required>
+                        </div>
+                         <div class="col-md-12 mt-4">
+                            <label class="form-label required" for="motddepasse">Mot de passe</label>
+                            <input class="form-control border border-3 border-dark rounded-3" type="password"  id="motdepasse" name="motdepasse" placeholder="Votre mot de passe" required>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="text-black">   
+                            Vos données personnelles seront utilisées pour vous accompagner au cours de votre visite du site web, gérer l’accès à votre compte, et pour d’autres raisons décrites dans notre 
+                            <a href="#" class="text-decoration-none" style="color: yellowgreen; font-size: 18px;">
+                                politique de confidentialité.
+                            </a> 
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <button class="btn" type="submit" style="background-color: goldenrod;">
+                            <i class="bi bi-person-plus-fill"> S'inscrire</i>      
+                       </button>
+                    </div> 
+                    
+                </form>   
+            </div>
+        </div>
     </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-  </div>
-  
-  
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     
+   
+    
+        
+        
+            
+    
+            
+           
+                        
+                    
+
+    
+
+     
+
+    
+        
+
+        
+     
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>    
 </body>
 </html>
